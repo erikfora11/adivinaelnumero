@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    width: 35rem;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #260F26;
+    color: #86CB92;
+}
+
+.content > *{
+    padding: 1rem;
+}
+.content > input{
+    width: 26rem;
+    margin: 0.5rem;
+}
+
+.content > button{
+    width: 12rem;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+    transition-duration: 0.5s;
+}
+
+.content > button:hover{
+    background-color: #404E7C;
+}
